@@ -1,0 +1,69 @@
+<ion-content [fullscreen]="true">
+  <div class="banner">
+    <img src="../../../../assets/banner.svg" />
+
+    <div class="caption ion-padding">
+      Welcome And <br>
+      Happy Shopping
+    </div>
+
+    <div class="search">
+      <ion-item lines="none" class="ion-no-padding">
+        <ion-icon slot="start" name="search-outline"></ion-icon>
+        <ion-input placeholder="Search"></ion-input>
+        <ion-button slot='end'>
+          <img src="../../../../assets/filter.svg" />
+        </ion-button>
+      </ion-item>
+    </div>
+  </div>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img routerLink="/product" src="../../../../assets/image/shop.jpg">
+          <ion-card-header>
+            <ion-card-title>Toko Barong</ion-card-title>
+            <br>
+            <ion-card-subtitle>Jln. Setiabudi <br>
+              08127327367
+            </ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col><ion-card>
+        <img routerLink="/product" src="../../../../assets/image/shop2.webp">
+        <ion-card-header>
+          <ion-card-title>Toko Buad</ion-card-title>
+          <br>
+          <ion-card-subtitle>Jln. Slohe <br>
+            088253313
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card></ion-col>
+      <ion-col>
+        <ion-card>
+          <img routerLink="/product" src="../../../../assets/image/store.jpg">
+          <ion-card-header>
+            <ion-card-title>Toko Buda</ion-card-title>
+            <br>
+            <ion-card-subtitle>Jln. Hajo <br>
+              0825263823
+            </ion-card-subtitle>
+          </ion-card-header>
+        </ion-card>
+      </ion-col>
+      <ion-col><ion-card>
+        <img routerLink="/product" src="../../../../assets/image/nonn.jpg">
+        <ion-card-header>
+          <ion-card-title>Toko Jahal</ion-card-title>
+          <br>
+          <ion-card-subtitle>Jln. Raguna <br>
+            08232737238
+          </ion-card-subtitle>
+        </ion-card-header>
+      </ion-card></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
